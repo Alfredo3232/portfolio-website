@@ -65,7 +65,7 @@
 //               <i class="fa fa-envelope"></i>
 //             </a>
 
-//             <a rel="me" href="www.linkedin.com/in/AlfredoRojas1" class="button button-icon"
+//             <a rel="me" href="https://www.linkedin.com/in/AlfredoRojas1/" class="button button-icon"
 //               title="linkedin: AlfredoRojas1">
 //               <i class="fa fa-linkedin-square"></i>
 //             </a>
@@ -115,7 +115,7 @@
 //               <i class="fa fa-envelope"></i>
 //             </a>
 
-//             <a rel="me" href="www.linkedin.com/in/AlfredoRojas1" class="button button-icon"
+//             <a rel="me" href="https://www.linkedin.com/in/AlfredoRojas1/" class="button button-icon"
 //               title="linkedin: AlfredoRojas1">
 //               <i class="fa fa-linkedin-square"></i>
 //             </a>
