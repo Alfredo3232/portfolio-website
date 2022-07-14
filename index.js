@@ -18,3 +18,5 @@ io.on('connection', function(socket) {
     io.emit('message', msg);
   });
 });
+
+console.log(`the server is running on ${PORT}`)

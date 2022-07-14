@@ -1,0 +1,153 @@
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-2xl {
+  font-size: 1.5rem
+}
+
+.mb-6 {
+  margin-bottom: 2rem
+}
+
+.ml-3 {
+  margin-left: 1rem
+}
+
+html {
+  --black: #0e141b;
+  --orange: #ff8a00;
+  --green: #4fc08d;
+  --pink: #a84fc0;
+  --rose: #ff0a78;
+  --purple: #7928ca;
+  --blue: #6ac;
+  --grey: #2a4555;
+  --dark-grey: #1e262f;
+  scroll-behavior: smooth;
+  color: #fff
+}
+
+html .wrapper {
+  padding: 2rem 2rem 0;
+  background-color: #333333;
+}
+
+html footer a {
+  text-decoration: underline
+}
+
+html .tag {
+  background-color: #333333;
+  background-color: var(--grey);
+  opacity: .8;
+  transform-origin: center center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all .4s;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  outline: 0
+}
+
+html .tag:hover {
+  opacity: 1;
+  transform: scale(1.05)
+}
+
+html .tag--active {
+  background: #4fc08d;
+  background: var(--green)
+}
+
+html .tag--small {
+  cursor: default;
+  font-size: 1rem
+}
+
+html .tag--small:hover {
+  opacity: .8;
+  transform: none
+}
+
+html .tag .number {
+  background-color: #0e141b;
+  background-color: var(--black);
+  font-size: 1rem;
+  padding: 1px 3px;
+  border-radius: 2px
+}
+
+html .blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem
+}
+
+html .blog {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  background-color: var(--dark-grey);
+  box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .1)
+}
+
+html .blog-header {
+  display: flex;
+  align-items: center;
+  padding: 15px
+}
+
+html .blog-content {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column
+}
+
+html .blog-description {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  flex: 1
+}
+
+html .blog-tags {
+  list-style-type: none;
+  padding: 0
+}
+
+html .blog-tags li {
+  display: inline-block
+}
+
+html .blog-footer {
+  display: flex;
+  border-top: 1px solid #2a4555;
+  border-top: 1px solid var(--grey)
+}
+
+html .blog-footer a {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}

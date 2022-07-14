@@ -2252,13 +2252,12 @@ h6 {
     content: "\f20c"
 }
 
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
-    background-color: #3d3c3c;
+    background-color: #333333;
 }
 
 article,
@@ -2739,19 +2738,19 @@ h4 {
 }
 
 ::-moz-selection {
-    color: #fff;
-    background: #ff0000
+    text-shadow: 0 0 7px #fff, 0 0 3px rgb(255 0 0), 0 0 102px rgb(255 255 255), 0 0 9px rgb(255 0 0)
 }
 
 ::selection {
-    color: #fff;
-    background: #ff0000
+    text-shadow: 0 0 7px #fff, 0 0 3px rgb(255 0 0), 0 0 102px rgb(255 255 255), 0 0 9px rgb(255 0 0)
+
 }
 
 .red,
 a {
-    color: #ff0000
+    color:white;
 }
+
 
 h1 {
     font-size: 36px
@@ -2951,13 +2950,13 @@ blockquote {
     margin-right: .2em
 }
 
-.button.button-red {
+/* .button.button-red {
     background-color: #ff0000;
     border: 1px solid #000000;
     color: #fff;
     padding: .7em 1.2em;
     font-weight: 400
-}
+} */
 
 .button.button-red:focus,
 .button.button-red:hover {
@@ -3320,13 +3319,13 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .site-main .site-main-inner,
 .timeline_element {
     position: relative;
-    background-color: #3d3c3c;
+    background-color: #333333;
 }
 
 .main-section {
     max-width: 850px;
     padding: 50px;
-    background-color: #3d3c3c;
+    background-color: #333333;
     color: rgb(255, 255, 255)
 }
 
@@ -3404,7 +3403,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
         display: block;
         width: 5px;
         height: 5px;
-        background-color: rgba(255, 0, 0, 0.8)
+        background-color: rgba(230, 21, 21, 0.8)
     }
 
     .timeline_element:first-child .timeline_element-date {
@@ -3569,7 +3568,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .tech-tags a,
 .tech-tags a:hover {
-    background-color: rgba(255, 0, 0, 0.8)
+    background-color: rgba(191, 214, 201, 0.8)
 }
 
 @media screen and (max-width:767px) {
@@ -3677,7 +3676,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .portfolio-timeline .project-link:hover {
-    color: #ff0000
+    text-shadow: 0 0 7px #fff, 0 0 3px rgb(255 0 0), 0 0 102px rgb(255 255 255), 0 0 9px rgb(255 0 0)
 }
 
 .portfolio-timeline .project-text {
