@@ -1,4 +1,4 @@
-.fa,
+/* .fa,
 .fa-stack {
     display: inline-block
 }
@@ -7,15 +7,15 @@
 .fa-li,
 .icon {
     text-align: center
-}
+} */
 
-.main-navigation ul,
+/* .main-navigation ul,
 .site-sidebar .posts-list,
 .tech-icons,
 .tech-tags,
 .timeline>ul {
     list-style: none
-}
+} */
 
 @font-face {
     font-family: Roboto;
@@ -52,10 +52,6 @@
     src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
 }
 
-/*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 @font-face {
     font-family: FontAwesome;
     src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);
@@ -72,13 +68,13 @@
     -moz-osx-font-smoothing: grayscale
 }
 
-.fa-lg {
+/* .fa-lg {
     font-size: 1.33333333em;
     line-height: .75em;
     vertical-align: -15%
-}
+} */
 
-.fa-2x {
+/* .fa-2x {
     font-size: 2em
 }
 
@@ -92,9 +88,9 @@
 
 .fa-5x {
     font-size: 5em
-}
+} */
 
-.fa-fw {
+/* .fa-fw {
     width: 1.28571429em
 }
 
@@ -106,9 +102,9 @@
 
 .fa-ul>li {
     position: relative
-}
+} */
 
-.fa-li {
+/* .fa-li {
     position: absolute;
     left: -2.14285714em;
     width: 2.14285714em;
@@ -123,9 +119,9 @@
     padding: .2em .25em .15em;
     border: .08em solid #eee;
     border-radius: .1em
-}
+} */
 
-hr,
+/* hr,
 legend,
 td,
 th {
@@ -135,11 +131,11 @@ th {
 img,
 legend {
     border: 0
-}
+} */
 
-.pull-right {
+/* .pull-right {
     float: right
-}
+} */
 
 .dl-vertical dd,
 .dl-vertical dt,
@@ -148,13 +144,13 @@ legend {
     float: left
 }
 
-.fa.pull-left {
+/* .fa.pull-left {
     margin-right: .3em
 }
 
 .fa.pull-right {
     margin-left: .3em
-}
+} */
 
 body,
 h1,
@@ -166,7 +162,7 @@ h6 {
     margin: 0
 }
 
-.fa-spin {
+/* .fa-spin {
     -webkit-animation: fa-spin 2s infinite linear;
     animation: fa-spin 2s infinite linear
 }
@@ -214,9 +210,9 @@ h6 {
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg)
-}
+} */
 
-.fa-flip-horizontal {
+/* .fa-flip-horizontal {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
     -webkit-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
@@ -228,17 +224,17 @@ h6 {
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1)
-}
+} */
 
-:root .fa-flip-horizontal,
+/* :root .fa-flip-horizontal,
 :root .fa-flip-vertical,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-rotate-90 {
     filter: none
-}
+} */
 
-.fa-stack {
+/* .fa-stack {
     position: relative;
     width: 2em;
     height: 2em;
@@ -260,12 +256,12 @@ h6 {
 
 .fa-stack-2x {
     font-size: 2em
-}
+} */
 
-.fa-inverse {
+/* .fa-inverse {
     color: #fff
-}
-
+} */
+/* 
 .fa-glass:before {
     content: "\f000"
 }
@@ -312,9 +308,9 @@ h6 {
 
 .fa-th-list:before {
     content: "\f00b"
-}
+} */
 
-.fa-check:before {
+/* .fa-check:before {
     content: "\f00c"
 }
 
@@ -351,8 +347,8 @@ h6 {
 
 .fa-home:before {
     content: "\f015"
-}
-
+} */
+/* 
 .fa-file-o:before {
     content: "\f016"
 }
@@ -392,9 +388,9 @@ h6 {
 
 .fa-refresh:before {
     content: "\f021"
-}
+} */
 
-.fa-list-alt:before {
+/* .fa-list-alt:before {
     content: "\f022"
 }
 
@@ -444,9 +440,9 @@ h6 {
 
 .fa-bookmark:before {
     content: "\f02e"
-}
+} */
 
-.fa-print:before {
+/* .fa-print:before {
     content: "\f02f"
 }
 
@@ -488,9 +484,9 @@ h6 {
 
 .fa-align-justify:before {
     content: "\f039"
-}
+} */
 
-.fa-list:before {
+/* .fa-list:before {
     content: "\f03a"
 }
 
@@ -544,9 +540,9 @@ h6 {
 
 .fa-arrows:before {
     content: "\f047"
-}
+} */
 
-.fa-step-backward:before {
+/* .fa-step-backward:before {
     content: "\f048"
 }
 
@@ -584,9 +580,9 @@ h6 {
 
 .fa-eject:before {
     content: "\f052"
-}
+} */
 
-.fa-chevron-left:before {
+/* .fa-chevron-left:before {
     content: "\f053"
 }
 
@@ -632,9 +628,9 @@ h6 {
 
 .fa-ban:before {
     content: "\f05e"
-}
+} */
 
-.fa-arrow-left:before {
+/* .fa-arrow-left:before {
     content: "\f060"
 }
 
@@ -697,9 +693,9 @@ h6 {
 
 .fa-eye-slash:before {
     content: "\f070"
-}
+} */
 
-.fa-exclamation-triangle:before,
+/* .fa-exclamation-triangle:before,
 .fa-warning:before {
     content: "\f071"
 }
@@ -738,8 +734,8 @@ h6 {
 
 .fa-shopping-cart:before {
     content: "\f07a"
-}
-
+} */
+/* 
 .fa-folder:before {
     content: "\f07b"
 }
@@ -759,7 +755,7 @@ h6 {
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
     content: "\f080"
-}
+} */
 
 .fa-twitter-square:before {
     content: "\f081"
@@ -768,7 +764,7 @@ h6 {
 .fa-facebook-square:before {
     content: "\f082"
 }
-
+/* 
 .fa-camera-retro:before {
     content: "\f083"
 }
@@ -804,13 +800,13 @@ h6 {
 
 .fa-sign-out:before {
     content: "\f08b"
-}
+} */
 
 .fa-linkedin-square:before {
     content: "\f08c"
 }
 
-.fa-thumb-tack:before {
+/* .fa-thumb-tack:before {
     content: "\f08d"
 }
 
@@ -824,13 +820,13 @@ h6 {
 
 .fa-trophy:before {
     content: "\f091"
-}
+} */
 
 .fa-github-square:before {
     content: "\f092"
 }
 
-.fa-upload:before {
+/* .fa-upload:before {
     content: "\f093"
 }
 
@@ -844,15 +840,15 @@ h6 {
 
 .fa-square-o:before {
     content: "\f096"
-}
+} */
 
-.fa-bookmark-o:before {
+/* .fa-bookmark-o:before {
     content: "\f097"
 }
 
 .fa-phone-square:before {
     content: "\f098"
-}
+} */
 
 .fa-twitter:before {
     content: "\f099"
@@ -866,7 +862,7 @@ h6 {
     content: "\f09b"
 }
 
-.fa-unlock:before {
+/* .fa-unlock:before {
     content: "\f09c"
 }
 
@@ -908,9 +904,9 @@ h6 {
 
 .fa-hand-o-down:before {
     content: "\f0a7"
-}
+} */
 
-.fa-arrow-circle-left:before {
+/* .fa-arrow-circle-left:before {
     content: "\f0a8"
 }
 
@@ -924,7 +920,7 @@ h6 {
 
 .fa-arrow-circle-down:before {
     content: "\f0ab"
-}
+} */
 
 .fa-globe:before {
     content: "\f0ac"

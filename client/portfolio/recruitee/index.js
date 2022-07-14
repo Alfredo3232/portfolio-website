@@ -22,7 +22,7 @@
 
 //   <meta name="description"
 //     content="A beautiful online tool to help you find, screen and hire the best talent. Available on Android & iOS.">
-//   <link rel="canonical" href="https://jtom.me/portfolio/recruitee/" />
+//   <link rel="canonical" href="https://portfolio-website-arojas32.herokuapp.com/portfolio/recruitee/" />
 
 
 
@@ -30,10 +30,10 @@
 //   <meta property="og:type" content="website">
 //   <meta property="og:site_name" content="Alfredo Rojas - full-stack freelance software engineer">
 //   <meta property="og:locale" content="en_US">
-//   <meta property="og:url" content="https://jtom.me/portfolio/recruitee/">
+//   <meta property="og:url" content="https://portfolio-website-arojas32.herokuapp.com/portfolio/recruitee/">
 //   <meta property="og:description"
 //     content="A beautiful online tool to help you find, screen and hire the best talent. Available on Android & iOS.">
-//   <meta property="og:image" content="https://jtom.me//images/portfolio/recruitee/7.png">
+//   <meta property="og:image" content="https://portfolio-website-arojas32.herokuapp.com//images/portfolio/recruitee/7.png">
 //   <!-- <meta property="og:image:type" content="image/png"> -->
 //   <!-- <meta property="og:image:width" content="152"> -->
 //   <!-- <meta property="og:image:height" content="152"> -->
@@ -100,7 +100,7 @@
 //             <!-- <li class=""><a href="/about-me/">About me</a></li> -->
 
 //             <li class=""><a href="/cv/">CV</a></li>
-//             <li class=""><a href="/talks/">Presentations</a></li>
+//             <li class=""><a href="/Games/">Games</a></li>
 
 //           </ul>
 //         </div>
