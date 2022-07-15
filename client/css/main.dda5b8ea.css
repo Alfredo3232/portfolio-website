@@ -969,7 +969,7 @@ h6 {
     content: "\f0c4"
 } */
 
-/* .fa-copy:before,
+.fa-copy:before,
 .fa-files-o:before {
     content: "\f0c5"
 }
@@ -1007,9 +1007,9 @@ h6 {
 
 .fa-underline:before {
     content: "\f0cd"
-} */
+}
 
-/* .fa-table:before {
+.fa-table:before {
     content: "\f0ce"
 }
 
@@ -1031,7 +1031,7 @@ h6 {
 
 .fa-google-plus-square:before {
     content: "\f0d4"
-} */
+}
 
 .fa-google-plus:before {
     content: "\f0d5"
