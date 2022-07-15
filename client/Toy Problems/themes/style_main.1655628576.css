@@ -461,7 +461,7 @@ td.no_border, th.no_border, .no_border td, .no_border th {
    overflow: hidden;
    transition: max-height 0.2s ease-out;
 } */
-.collapsible_title {
+/* .collapsible_title {
    float: left;
    text-align: left;
 }
@@ -482,7 +482,7 @@ td.no_border, th.no_border, .no_border td, .no_border th {
    color: var(--color-white);
    padding: 1px;
    border-radius: 5px;
-}
+} */
 
 .anchor {
    position: relative;
