@@ -922,7 +922,7 @@ h6 {
     content: "\f0ab"
 } */
 
-.fa-globe:before {
+/* .fa-globe:before {
     content: "\f0ac"
 }
 
@@ -967,9 +967,9 @@ h6 {
 .fa-cut:before,
 .fa-scissors:before {
     content: "\f0c4"
-}
+} */
 
-.fa-copy:before,
+/* .fa-copy:before,
 .fa-files-o:before {
     content: "\f0c5"
 }
@@ -1007,9 +1007,9 @@ h6 {
 
 .fa-underline:before {
     content: "\f0cd"
-}
+} */
 
-.fa-table:before {
+/* .fa-table:before {
     content: "\f0ce"
 }
 
@@ -1031,7 +1031,7 @@ h6 {
 
 .fa-google-plus-square:before {
     content: "\f0d4"
-}
+} */
 
 .fa-google-plus:before {
     content: "\f0d5"
@@ -2976,7 +2976,7 @@ blockquote {
 }
 
 body {
-    background: #f6f6f6
+    background: #333333
 }
 
 @media screen and (max-width:1000px) {
@@ -3265,7 +3265,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .site-main {
-    margin-left: 25%
+    margin-left: 25%;
+    background: #333333;
 }
 
 .site-main:before {
