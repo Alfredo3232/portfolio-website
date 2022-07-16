@@ -1,0 +1,79 @@
+:root {
+
+	--bg: #ccc ;
+	--fg: #222 ;
+	--behind: #123 ;
+	--h1: #008 ;
+	--red: #400 ;
+	--yellow: #440 ;
+	--blue: #004 ;
+	--link: #037 ;
+	--linksec: #059 ;
+	--border: #333 ;
+	--box: #444 ;
+	--lime: #070 ;
+
+}
+
+body {
+	background: var(--behind) ;
+}
+
+.lw,
+p img,
+li img,
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+dt img,
+td img,
+button img {
+	max-height: .8em;
+	max-width: 1em;
+	vertical-align: middle;
+}
+
+img {
+	max-width: 90%;
+}
+
+main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+header h1 {
+	color: rgb(119, 215, 247);
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #88c8ff;
+	text-align: center;
+	font-size: xx-large;
+	font-family: "Fira Sans", sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+}
+
+.titleimg {
+	align: center;
+}
+
+.titleimg img {
+	margin: auto;
+	max-width: 90%;
+	max-height: 400px;
+	display: block;
+}
+
+figcaption {
+	text-align: center;
+	display: block;
+}
