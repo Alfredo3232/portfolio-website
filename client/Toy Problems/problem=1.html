@@ -116,13 +116,46 @@
 
          <div id="content">
 
-            <h2>Title</h2>
+            <h2>Average of an Array</h2>
             <h3>Problem 1</h3>
          </div>
          <hr>
          <div class="problem_content" role="problem">
-            <p>Story behind Problem.</p>
-            <p>Requirements for the Toy Problem</p>
+            <p>
+               It is the end of the academic year, fateful moment of your school report. Averages must be calculated.
+               All the students come to you and beg you to calculate the average for them.
+               Returns the average of the given array rounded down to the nearest integer.
+               The array will never be empty.
+               <br>
+               Use this Function <br>
+            <table>
+               &emsp;function obtainTheMedian(grades) {<br>
+               &emsp;}<br>
+            </table>
+            </p>
+            <p>
+               Try these inputs to test your problem out:
+               <br>
+               &emsp; [2,2,2,2] should equal to 2<br>
+               &emsp; [1,2,3,4,5,] should equal to 3<br>
+               &emsp; [7,8,14,17,14,16] should equal to 12<br>
+            </p>
+            <button id="button" onclick="showhide()" style="background-color: #2a4555;">Solution</button>
+            <div id="newpost" class="hidden">
+               <p>
+                  function obtainTheMedian(grades) {<br>
+                     &emsp; let len = grades.length;<br>
+                     &emsp; let num = 0;<br>
+                     &emsp; let total;<br>
+                     &emsp; for (var i = 0; i < grades.length; i++) {<br>
+                        &emsp; &emsp; num += grades[i]<br>
+                        &emsp; }<br>
+                        &emsp; total = num / len<br>
+                        &emsp; return Math.floor(total)<br>
+                  }
+               </p>
+            </div>
+
          </div><br>
          <br>
       </div>

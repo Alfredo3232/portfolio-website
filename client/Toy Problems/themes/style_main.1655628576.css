@@ -26,20 +26,24 @@ a:hover {
    color: var(--color-text-link-hover);
    text-decoration: underline;
 }
+
 a.no_hover {
    color: var(--color-text-link);
    text-decoration: none;
 }
+
 .center {
    text-align: center !important;
 }
 
 .grid {
-  border-collapse: collapse;
+   border-collapse: collapse;
 }
+
 .grid tr {
    background-color: var(--color-background-default);
 }
+
 .grid .shade {
    background-color: var(--color-pale-pink);
 }
@@ -49,7 +53,9 @@ a.no_hover {
    text-align: center;
    font-weight: bold;
 }
-.grid td, .grid th {
+
+.grid td,
+.grid th {
    background-color: inherit;
    padding: 2px;
    border: 1px solid var(--color-border-default);
@@ -58,10 +64,15 @@ a.no_hover {
 .no_border {
    border-collapse: collapse;
 }
-td.no_border, th.no_border, .no_border td, .no_border th {
+
+td.no_border,
+th.no_border,
+.no_border td,
+.no_border th {
    padding: 1px;
    border: none;
 }
+
 .no_border tr {
    background-color: inherit;
 }
@@ -71,49 +82,59 @@ td.no_border, th.no_border, .no_border td, .no_border th {
    font-size: 110%;
    border: solid 1px var(--color-border-default);
    box-shadow: 5px 5px 5px var(--color-border-default);
-   padding:10px;
+   padding: 10px;
 }
+
 .jump_to {
    width: 30px !important;
 }
 
 .pagination {
    font-size: 80%;
-   height: 1%; 
+   height: 1%;
    text-align: center;
    margin: 20px 0;
 }
-.pagination a, .pagination a:link, .pagination a:visited, .pagination a:active {
+
+.pagination a,
+.pagination a:link,
+.pagination a:visited,
+.pagination a:active {
    display: block;
    float: left;
-   font-weight:bold;
+   font-weight: bold;
    text-decoration: none;
    color: var(--color-text-variation-1);
    margin: 2px 5px 2px 0;
-   padding:3px;
-   background-color:var(--color-background-variation-1);
+   padding: 3px;
+   background-color: var(--color-background-variation-1);
    width: 2em;
-   border:1px solid var(--color-border-default);
+   border: 1px solid var(--color-border-default);
 }
+
 .pagination a.current {
    background-color: var(--color-orange);
    color: var(--color-background-default);
    font-weight: bold;
    border-radius: 5px;
 }
+
 .pagination span {
    float: left;
    font-weight: bold;
 }
+
 .pagination input[type="text"] {
    width: 20px;
    color: black;
 }
-.pagination:after  {
+
+.pagination:after {
    content: "";
    display: table;
    clear: both;
 }
+
 #content {
    padding: 10px;
    background-color: #333333;
@@ -125,6 +146,7 @@ td.no_border, th.no_border, .no_border td, .no_border th {
    border-top: 1px solid var(--color-border-default);
    border-bottom: 1px solid var(--color-border-default);
 }
+
 .nav a {
    float: left;
    display: block;
@@ -135,29 +157,40 @@ td.no_border, th.no_border, .no_border td, .no_border th {
    text-decoration: none;
    border-radius: 5px;
 }
+
 .nav #current {
    background-color: var(--color-orange);
    color: var(--color-background-default);
 }
+
 #problems_table_page #problems_table {
    margin-top: 30px;
 }
+
 #problems_table_page #problems_table th.id_column {
    width: 50px;
 }
+
 #problems_table_page #problems_table td.id_column {
-   height:  30px;
-   text-align:center;
+   height: 30px;
+   text-align: center;
    font-weight: bold;
 }
+
 #problems_table_page #problems_table th.title_column {
    width: 250px;
    max-width: 250px;
-   word-wrap:break-word;
+   word-wrap: break-word;
 }
+
 #problems_table_page #problems_table th.solved_by_column {
    width: 80px;
 }
+
 #problems_table_page #problems_table th.difficulty_column {
    width: 80px;
+}
+
+.hidden {
+   display: none;
 }
