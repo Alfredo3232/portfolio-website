@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "This is the code to my portoflio website feel free to check it out:",
+  "description": "This is the code to my portoflio website feel free to check it out",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js"
@@ -10,9 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "live-server": "^1.2.1",
-    "socket.io": "^2.1.1"
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "eslint": "^8.24.0"

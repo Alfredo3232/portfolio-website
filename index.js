@@ -1,22 +1,13 @@
-var PORT = process.env.PORT || 5000;
 var express = require('express');
-var app = express();
-
 var http = require('http');
-var server = http.Server(app);
+
+const PORT = process.env.PORT || 5000;
+let app = express();
+
+let server = http.Server(app);
 
 app.use(express.static('client'));
 
-server.listen(PORT, function() {
-  console.log('server running');
+server.listen(PORT, function () {
+  console.log(`Server running at PORT: ${PORT}`);
 });
-
-var io = require('socket.io')(server);
-
-io.on('connection', function(socket) {
-  socket.on('message', function(msg) {
-    io.emit('message', msg);
-  });
-});
-
-console.log(`the server is running on ${PORT}`)

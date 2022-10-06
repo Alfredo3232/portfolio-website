@@ -1,2 +1,4 @@
+# dependency files
 node_modules/
+# eslint settings
 .eslintrc.json
