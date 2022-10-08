@@ -1,10 +1,10 @@
-var express = require('express');
-var http = require('http');
+import express from 'express';
+import { Server } from 'http';
 
 const PORT = process.env.PORT || 5000;
 let app = express();
 
-let server = http.Server(app);
+let server = Server(app);
 
 app.use(express.static('client'));
 
