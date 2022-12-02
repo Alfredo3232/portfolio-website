@@ -2,4 +2,4 @@
 This is the code to my portoflio website.
 
 ## This project has now been deprecated.
-New project -> https://github.com/arojas32/portfolio-website-v2
+New project -> [Portfolio_Website_V2](https://github.com/arojas32/Portfolio_Website_V2)
