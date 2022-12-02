@@ -1,3 +1,5 @@
 # Portfolio-Website
+This is the code to my portoflio website.
 
-This is the code to my portoflio website feel free to check it out
+## This project has now been deprecated.
+New project -> https://github.com/arojas32/portfolio-website-v2
